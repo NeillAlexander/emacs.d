@@ -1,0 +1,1 @@
+/home/neill/src/ac-slime/ac-slime.el
