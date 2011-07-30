@@ -1,3 +1,13 @@
+------------------------------------------------------------------------
+See http://github.com/technomancy/emacs-starter-kit/ for the actual
+started kit. This repository simply contains the small modifications I
+made to the files provided by the starter kit so that Emacs works the
+way I want it to work.
+------------------------------------------------------------------------
+
+
+
+
 # Emacs Starter Kit
 
 The Starter Kit should provide a saner set of defaults than you get
