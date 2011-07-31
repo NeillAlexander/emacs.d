@@ -58,4 +58,4 @@
 (add-hook 'muse-mode-hook 'turn-on-real-auto-save)
 (add-hook 'slime-mode-hook 'turn-on-real-auto-save) ;; for auto-save in Clojure
 (add-hook 'emacs-list-mode-hook 'turn-on-real-auto-save) ;; for auto-save in elisp
-(setq real-auto-save-interval 5) ;; in seconds
+(setq real-auto-save-interval 10) ;; in seconds
