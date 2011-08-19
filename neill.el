@@ -59,3 +59,6 @@
 (add-hook 'slime-mode-hook 'turn-on-real-auto-save) ;; for auto-save in Clojure
 (add-hook 'emacs-list-mode-hook 'turn-on-real-auto-save) ;; for auto-save in elisp
 (setq real-auto-save-interval 60) ;; in seconds
+
+;; make sure slime doesn't barf when reading rtm etc
+(setq slime-net-coding-system 'utf-8-unix)
