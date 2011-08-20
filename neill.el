@@ -62,3 +62,5 @@
 
 ;; make sure slime doesn't barf when reading rtm etc
 (setq slime-net-coding-system 'utf-8-unix)
+
+(add-hook 'slime-repl-mode-hook 'clojure-mode-font-lock-setup)
