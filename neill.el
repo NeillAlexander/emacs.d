@@ -1,12 +1,12 @@
 (server-start)
 
 ;; set up the color theme to use
-(add-to-list 'load-path "/usr/share/emacs/site-lisp/emacs-goodies-el/color-theme.el")
+;;(add-to-list 'load-path "/usr/share/emacs/site-lisp/emacs-goodies-el/color-theme.el")
 (require 'color-theme)
 (color-theme-blackboard)
 
 ;; set font size to 10pt
-(set-face-attribute 'default nil :height 90)
+;;(set-face-attribute 'default nil :height 90)
 
 ;; start maximized
 (defun toggle-fullscreen ()
@@ -64,3 +64,5 @@
 (setq slime-net-coding-system 'utf-8-unix)
 
 (add-hook 'slime-repl-mode-hook 'clojure-mode-font-lock-setup)
+
+(global-set-key "\C-z" nil)
